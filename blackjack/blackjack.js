@@ -17,7 +17,7 @@ function startGame(){
 let player = {
     name: "Zeeshan",
     chips: 145
-}
+} 
 let playerEl = document.getElementById("player-el");
 playerEl.textContent = player.name + ": $" + player.chips;
 function getRandomCard()
